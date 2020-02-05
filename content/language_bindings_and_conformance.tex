@@ -14,4 +14,5 @@ All \openshmem extension \acp{API} that are not part of this specification must
 be defined in the \HEADER{shmemx.h} include file for language bindings. This
 header file must exist, even if no extensions are provided. Any extensions
 shall use the \FUNC{shmemx\_} prefix for all routine, variable, and constant
-names.
+names. An exception to this restriction is made for \openshmem extensions
+that add support for additional types to existing \openshmem routines.
